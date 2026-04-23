@@ -10,7 +10,7 @@ $current = $currentPage ?? '';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= h($pageTitle) ?> — Patient | Nexus Health</title>
+    <title><?= h($pageTitle) ?> — Patient | Dhami Hospital</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -20,6 +20,7 @@ $current = $currentPage ?? '';
     <div class="bg-grid"></div>
     <div class="bg-glow bg-glow--2"></div>
     <div class="dashboard-layout">
+        <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
         <aside class="sidebar glass" id="sidebar">
             <div class="sidebar-brand">
                 <span class="logo-icon">◇</span>

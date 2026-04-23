@@ -1,4 +1,4 @@
-# Nexus Health — Hospital Management System
+# Dhami Hospital — Hospital Management System
 
 A complete, locally runnable **Hospital Management System** built with **HTML5**, **CSS3**, **vanilla JavaScript**, **PHP**, and **MySQL**. The interface uses a **dark, futuristic** aesthetic: **glassmorphism**, **neon blue/purple gradients**, **smooth hover states**, and **responsive** dashboard layouts.
 
@@ -6,7 +6,7 @@ A complete, locally runnable **Hospital Management System** built with **HTML5**
 
 ## Project overview
 
-Nexus Health provides:
+Dhami Hospital provides:
 
 - A **public landing page** with hero, services, about, and a **contact form** stored in the database.
 - **Session-based authentication** with **password hashing** (`password_hash` / `password_verify`).

@@ -47,7 +47,7 @@ require_once __DIR__ . '/includes/header.php';
     <div class="hero-badge">Next-gen hospital OS</div>
     <h1>Care orchestrated by intelligence</h1>
     <p class="hero-lead">
-        Nexus Health unifies appointments, diagnostics, and billing in one futuristic command center —
+        Dhami Hospital unifies appointments, diagnostics, and billing in one futuristic command center —
         glass-clear workflows with neon precision.
     </p>
     <div class="hero-cta">
@@ -57,7 +57,7 @@ require_once __DIR__ . '/includes/header.php';
 </section>
 
 <section class="section container" id="about">
-    <h2 class="section-title">About Nexus Health</h2>
+    <h2 class="section-title">About Dhami Hospital</h2>
     <p class="section-sub">
         We are a digitally native hospital network focused on speed, transparency, and patient sovereignty.
         Our command dashboards give clinicians clarity; our patient portal gives you control.
@@ -140,7 +140,7 @@ require_once __DIR__ . '/includes/header.php';
         </form>
         <div class="glass" style="padding:24px;">
             <h3 class="mt-0">Visit</h3>
-            <p class="text-muted">Nexus Tower, Sector 7<br>Neo City — Medical District</p>
+            <p class="text-muted">Dhami Tower, Sector 7<br>Neo City — Medical District</p>
             <h3>Direct line</h3>
             <p class="text-muted" style="font-family:var(--font-mono);">+1 (555) 010-2048</p>
             <a class="btn btn--primary" href="register.php" style="margin-top:16px;">Book Appointment</a>

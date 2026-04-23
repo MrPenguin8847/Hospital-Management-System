@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 $ap = $GLOBALS['__asset_prefix'] ?? '';
-$pageTitle = $pageTitle ?? 'Nexus Health';
+$pageTitle = $pageTitle ?? 'Dhami Hospital';
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= h($pageTitle) ?> — Nexus Health</title>
+    <title><?= h($pageTitle) ?> — Dhami Hospital</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@ $pageTitle = $pageTitle ?? 'Nexus Health';
         <div class="container header-inner">
             <a class="logo" href="<?= h($ap) ?>index.php">
                 <span class="logo-icon">◈</span>
-                <span>Nexus<span class="logo-accent">Health</span></span>
+                <span>Dhami<span class="logo-accent">Hospital</span></span>
             </a>
             <nav class="nav-main" id="navMain">
                 <a href="<?= h($ap) ?>index.php#about">About</a>
