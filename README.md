@@ -57,6 +57,35 @@ Dhami Hospital provides:
 
 ---
 
+## Deployment on Vercel
+
+This app can be deployed on Vercel with some modifications for serverless compatibility.
+
+### Prerequisites
+- A GitHub repository with this code.
+- A cloud database (e.g., PlanetScale, Supabase) since Vercel doesn't provide persistent MySQL.
+- Cloud storage for file uploads (e.g., AWS S3, Vercel Blob) as local filesystem is ephemeral.
+
+### Steps
+1. **Push code to GitHub** (already done if deploying via GitHub integration).
+2. **Connect to Vercel**: Go to Vercel dashboard, import your GitHub repo.
+3. **Set Environment Variables** in Vercel project settings:
+   - `DB_HOST`: Your database host
+   - `DB_NAME`: Database name
+   - `DB_USER`: Database username
+   - `DB_PASS`: Database password
+   - `DB_CHARSET`: utf8mb4 (default)
+4. **Database Setup**: Import `database/schema.sql` into your cloud database.
+5. **File Uploads**: Update code to use cloud storage (not implemented yet; local uploads won't persist).
+6. **Deploy**: Vercel will build and deploy automatically on pushes.
+
+### Notes
+- Default admin: Create manually or run setup locally first.
+- After deployment, you don't need XAMPP; Vercel handles the server.
+- For database management, use your cloud provider's tools instead of XAMPP control panel.
+
+---
+
 ## Tech stack
 
 | Layer     | Technology                          |

@@ -5,11 +5,11 @@
 declare(strict_types=1);
 
 // Database
-define('DB_HOST', 'localhost');
-define('DB_NAME', 'hospital_management');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_CHARSET', 'utf8mb4');
+define('DB_HOST', getenv('DB_HOST') ?: 'localhost');
+define('DB_NAME', getenv('DB_NAME') ?: 'hospital_management');
+define('DB_USER', getenv('DB_USER') ?: 'root');
+define('DB_PASS', getenv('DB_PASS') ?: '');
+define('DB_CHARSET', getenv('DB_CHARSET') ?: 'utf8mb4');
 
 // Paths (no trailing slash)
 define('ROOT_PATH', dirname(__DIR__));
